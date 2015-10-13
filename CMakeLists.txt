@@ -173,7 +173,7 @@ set(LIBPYTHON_VERSION ${PY_VERSION_MAJOR}.${PY_VERSION_MINOR})
 if(MSVC)
     set(LIBPYTHON_VERSION ${PY_VERSION_MAJOR}${PY_VERSION_MINOR})
 endif(MSVC)
-set(LIBPYTHON python${LIBPYTHON_VERSION})
+set(LIBPYTHON python${LIBPYTHON_VERSION}_mitk)
 
 # Proceed to the configure checks
 include(cmake/ConfigureChecks.cmake)
